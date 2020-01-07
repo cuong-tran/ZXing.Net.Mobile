@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+<!--
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+-->
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -8,8 +11,13 @@
     <OutputType>Library</OutputType>
     <RootNamespace>ZXing.Net.Mobile.Forms</RootNamespace>
     <AssemblyName>ZXing.Net.Mobile.Forms</AssemblyName>
+<!--
     <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+-->
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Copyright>redth</Copyright>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -39,7 +47,9 @@
     <Compile Include="BarcodeWriter.cs" />
     <Compile Include="ZXingBarcodeImageView.cs" />
   </ItemGroup>
+<!--
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+-->
   <ItemGroup>
     <ProjectReference Include="..\ZXing.Net.Mobile.Core\ZXing.Net.Mobile.Core.csproj">
       <Project>{7528DD0A-1781-47F4-ADBF-EEDDB011F6BB}</Project>
@@ -51,6 +61,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="2.3.4.270" />
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
   </ItemGroup>
 </Project>

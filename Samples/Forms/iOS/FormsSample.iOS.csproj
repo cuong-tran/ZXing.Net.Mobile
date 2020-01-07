@@ -76,10 +76,10 @@
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json">
-      <InProject>false</InProject>
+      <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Resources\Images.xcassets\LaunchImage.launchimage\Contents.json">
-      <InProject>false</InProject>
+      <Visible>false</Visible>
     </ImageAsset>
   </ItemGroup>
   <ItemGroup>
@@ -106,10 +106,14 @@
     <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.Forms.iOS\ZXing.Net.Mobile.Forms.iOS.csproj">
       <Project>{8370ADB4-229C-4DEC-908F-B1A8FC155523}</Project>
       <Name>ZXing.Net.Mobile.Forms.iOS</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Source\ZXing.Net.Mobile.iOS\ZXing.Net.Mobile.iOS.csproj">
       <Project>{6CBD1DF3-1FD3-4F20-80A2-A0C7414C411A}</Project>
       <Name>ZXing.Net.Mobile.iOS</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Source\ZXing.Net\Source\lib\zxing.portable.csproj">
       <Project>{24b441f2-cbe9-4405-9fd0-72ebcbea0ec3}</Project>
@@ -125,7 +129,7 @@
     <BundleResource Include="Resources\Icon%402x.png" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.TestCloud.Agent" Version="0.21.1" />
-    <PackageReference Include="Xamarin.Forms" Version="2.4.0.18342" />
+    <PackageReference Include="Xamarin.TestCloud.Agent" Version="0.21.9" />
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
   </ItemGroup>
 </Project>
