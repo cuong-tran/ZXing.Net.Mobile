@@ -1,3 +1,4 @@
 [submodule "Source/ZXing.Net"]
 	path = Source/ZXing.Net
 	url = https://github.com/cuong-tran/ZXing.Net.git
+	branch = vs2019
