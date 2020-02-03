@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
   <App xmlns="" ProductID="{44522fe1-0da4-4db5-abfd-cd10adc31d0f}" Title="ZxingSharp.WindowsPhone.Sample" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="ZxingSharp.WindowsPhone.Sample author" Description="Sample description" Publisher="ZxingSharp.WindowsPhone.Sample" PublisherID="{94dcc2b2-8881-4eb1-bcde-f5fe62011aec}">

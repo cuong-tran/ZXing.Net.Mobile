@@ -1,4 +1,4 @@
-﻿using NUnit.Framework;
+using NUnit.Framework;
 using UITests.Shared;
 using Xamarin.UITest;
 using Xamarin.UITest.iOS;

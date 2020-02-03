@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZXing.Net.Mobile.NUnit", "ZXing.Net.Mobile.NUnit\ZXing.Net.Mobile.NUnit.csproj", "{638781A7-5053-4915-AAEB-0A1FF148180E}"

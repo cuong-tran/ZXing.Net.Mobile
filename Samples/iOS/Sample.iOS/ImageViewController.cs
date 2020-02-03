@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using ZXing.Mobile;
 
 #if __UNIFIED__

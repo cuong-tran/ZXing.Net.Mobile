@@ -1,4 +1,4 @@
-﻿using WindowsPhone.Resources;
+using WindowsPhone.Resources;
 
 namespace WindowsPhone
 {

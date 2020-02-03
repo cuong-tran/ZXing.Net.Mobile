@@ -1,4 +1,4 @@
-﻿//using System.Drawing.Imaging;
+//using System.Drawing.Imaging;
 #if WINDOWS_PHONE
 using System.Windows.Media;
 using System.Windows.Media.Imaging;

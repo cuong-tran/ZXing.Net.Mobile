@@ -1,4 +1,4 @@
-﻿//
+//
 //using ZXing.Rendering;
 //using Xamarin.Forms;
 //using System.IO;

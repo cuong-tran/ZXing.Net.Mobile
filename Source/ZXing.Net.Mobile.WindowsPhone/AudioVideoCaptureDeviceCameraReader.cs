@@ -1,4 +1,4 @@
-﻿using Microsoft.Devices;
+using Microsoft.Devices;
 using System;
 using System.Collections.Generic;
 using System.Linq;

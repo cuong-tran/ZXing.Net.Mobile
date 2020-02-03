@@ -1,4 +1,4 @@
-﻿using Xamarin.Forms;
+using Xamarin.Forms;
 using ZXing.Common;
 
 namespace ZXing.Net.Mobile.Forms

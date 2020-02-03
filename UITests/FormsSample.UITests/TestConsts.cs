@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace UITests
 {
     public static class TestConsts
