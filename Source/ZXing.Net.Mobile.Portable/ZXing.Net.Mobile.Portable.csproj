@@ -6,15 +6,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <!--
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProjectGuid>{78407906-99C6-42B0-A511-973FC78C58CB}</ProjectGuid>
+    -->
     <OutputType>Library</OutputType>
     <RootNamespace>ZXing.Mobile</RootNamespace>
     <AssemblyName>ZXingNetMobile</AssemblyName>
-<!--
+    <!--
     <TargetFrameworkProfile>Profile259</TargetFrameworkProfile>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
--->
+    -->
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Copyright>redth</Copyright>
@@ -41,9 +43,9 @@
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="MobileBarcodeScanner.cs" />
   </ItemGroup>
-<!--
+  <!--
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
--->
+  -->
   <ItemGroup>
     <Folder Include="Properties\" />
   </ItemGroup>

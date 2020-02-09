@@ -6,15 +6,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <!--
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProjectGuid>{0DAF97CA-02DB-4E4F-9163-B8F14EAE2D90}</ProjectGuid>
+    -->
     <OutputType>Library</OutputType>
     <RootNamespace>FormsSample</RootNamespace>
     <AssemblyName>FormsSample</AssemblyName>
-<!--
+    <!--
     <TargetFrameworkProfile>Profile78</TargetFrameworkProfile>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
--->
+    -->
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <TargetFramework>netstandard2.0</TargetFramework>
     <NuGetPackageImportStamp>
@@ -63,6 +65,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991265" />
+    <PackageReference Include="Xamarin.Forms" Version="4.4.0.991640" />
   </ItemGroup>
 </Project>
