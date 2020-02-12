@@ -54,8 +54,6 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ZXing.Net\Source\lib\zxing.portable.csproj">
-      <Project>{24b441f2-cbe9-4405-9fd0-72ebcbea0ec3}</Project>
-      <Name>zxing.portable</Name>
     </ProjectReference>
   </ItemGroup>
   <!--

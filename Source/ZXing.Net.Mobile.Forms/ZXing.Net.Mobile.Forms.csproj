@@ -54,8 +54,6 @@
   -->
   <ItemGroup>
     <ProjectReference Include="..\ZXing.Net.Mobile.Core\ZXing.Net.Mobile.Core.csproj">
-      <Project>{7528DD0A-1781-47F4-ADBF-EEDDB011F6BB}</Project>
-      <Name>ZXing.Net.Mobile.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
