@@ -1,0 +1,9 @@
+Solution description:
+- ZXing.Net.Mobile.sln: the solution contains all ZXing .NET portable library;
+- ZXing.Net.Mobile.Forms.sln: link above libraries with Xamarin.Form to create Form libraries;
+- Samples/Forms/Sample.Forms.sln: link all above libraries to create final executable;
+- Samples/Forms/Sample.Forms.Mac.sln: all libraries from above, except those not usable, i.e. exclude Windows, only those used for iOS & Android build, plus final executable for iOS & Android;
+- ZXing.Net.Mobile.Forms.Sample.sln: include all libraries and final executable, for all platform, and added executable on Mac too;
+
+To build for iOS, select either iPhone or iPhoneSimulator;
+To build for other, might select just simple Debug/Release;
